@@ -8,7 +8,7 @@ end
 
 def assign_rooms(speakers)
   speakers.collect do |speaker|
-    "Hello, #{speaker}! You'll be assigned to room" \
+    "Hello, #{speaker}! You'll be assigned to room " \
     "#{speakers.find_index(speaker) + 1}!"
   end
 end
